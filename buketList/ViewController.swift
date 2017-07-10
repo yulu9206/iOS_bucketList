@@ -37,17 +37,21 @@ class BucketListViewController: UITableViewController, AddItemTableViewControlle
         tableView.reloadData()
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        let addItemTableController = navigationController.topViewController as! AddItemTableViewController
+        addItemTableController.delegate = self
+        
         if segue.identifier == "AddItemSegue" {
             print ("selected add")
-            let navigationController = segue.destination as! UINavigationController
-            let addItemTableController = navigationController.topViewController as! AddItemTableViewController
-            addItemTableController.delegate = self
+//            let navigationController = segue.destination as! UINavigationController
+//            let addItemTableController = navigationController.topViewController as! AddItemTableViewController
+//            addItemTableController.delegate = self
             
         } else if segue.identifier == "EditItemSegue" {
             print ("selected an edit")
-            let navigationController = segue.destination as! UINavigationController
-            let addItemTableController = navigationController.topViewController as! AddItemTableViewController
-            addItemTableController.delegate = self
+//            let navigationController = segue.destination as! UINavigationController
+//            let addItemTableController = navigationController.topViewController as! AddItemTableViewController
+//            addItemTableController.delegate = self
             
             let indexPath = sender as! NSIndexPath
             let item = tasks[indexPath.row]
