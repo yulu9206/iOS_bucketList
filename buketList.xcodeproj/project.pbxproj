@@ -14,6 +14,8 @@
 		3B5772841F100B5C00CB0823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5772821F100B5C00CB0823 /* LaunchScreen.storyboard */; };
 		3B57728F1F100B5C00CB0823 /* buketListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57728E1F100B5C00CB0823 /* buketListTests.swift */; };
 		3B57729A1F100B5C00CB0823 /* buketListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5772991F100B5C00CB0823 /* buketListUITests.swift */; };
+		3B5772AA1F101F0B00CB0823 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5772A91F101F0B00CB0823 /* AddItemTableViewController.swift */; };
+		3B5772AE1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5772AD1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3B5772951F100B5C00CB0823 /* buketListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buketListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5772991F100B5C00CB0823 /* buketListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buketListUITests.swift; sourceTree = "<group>"; };
 		3B57729B1F100B5C00CB0823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5772A91F101F0B00CB0823 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		3B5772AD1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		3B5772781F100B5C00CB0823 /* buketList */ = {
 			isa = PBXGroup;
 			children = (
+				3B5772AD1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift */,
 				3B5772791F100B5C00CB0823 /* AppDelegate.swift */,
 				3B57727B1F100B5C00CB0823 /* ViewController.swift */,
 				3B57727D1F100B5C00CB0823 /* Main.storyboard */,
+				3B5772A91F101F0B00CB0823 /* AddItemTableViewController.swift */,
 				3B5772801F100B5C00CB0823 /* Assets.xcassets */,
 				3B5772821F100B5C00CB0823 /* LaunchScreen.storyboard */,
 				3B5772851F100B5C00CB0823 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				3B57727C1F100B5C00CB0823 /* ViewController.swift in Sources */,
 				3B57727A1F100B5C00CB0823 /* AppDelegate.swift in Sources */,
+				3B5772AE1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift in Sources */,
+				3B5772AA1F101F0B00CB0823 /* AddItemTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
