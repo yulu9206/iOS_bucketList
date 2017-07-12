@@ -16,6 +16,7 @@
 		3B57729A1F100B5C00CB0823 /* buketListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5772991F100B5C00CB0823 /* buketListUITests.swift */; };
 		3B5772AA1F101F0B00CB0823 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5772A91F101F0B00CB0823 /* AddItemTableViewController.swift */; };
 		3B5772AE1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5772AD1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift */; };
+		3B6493D01F15E25A00E4F93E /* buketList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B6493CE1F15E25A00E4F93E /* buketList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3B57729B1F100B5C00CB0823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5772A91F101F0B00CB0823 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
 		3B5772AD1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
+		3B6493CF1F15E25A00E4F93E /* buketList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buketList.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				3B5772AD1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift */,
+				3B6493CE1F15E25A00E4F93E /* buketList.xcdatamodeld */,
 				3B5772791F100B5C00CB0823 /* AppDelegate.swift */,
 				3B57727B1F100B5C00CB0823 /* ViewController.swift */,
 				3B57727D1F100B5C00CB0823 /* Main.storyboard */,
@@ -269,6 +272,7 @@
 				3B57727A1F100B5C00CB0823 /* AppDelegate.swift in Sources */,
 				3B5772AE1F1029E300CB0823 /* AddItemTableViewControllerDelegate.swift in Sources */,
 				3B5772AA1F101F0B00CB0823 /* AddItemTableViewController.swift in Sources */,
+				3B6493D01F15E25A00E4F93E /* buketList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				3B5772A01F100B5C00CB0823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B5772A11F100B5C00CB0823 /* Build configuration list for PBXNativeTarget "buketListTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				3B5772A31F100B5C00CB0823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B5772A41F100B5C00CB0823 /* Build configuration list for PBXNativeTarget "buketListUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,8 +537,23 @@
 				3B5772A61F100B5C00CB0823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B6493CE1F15E25A00E4F93E /* buketList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B6493CF1F15E25A00E4F93E /* buketList.xcdatamodel */,
+			);
+			currentVersion = 3B6493CF1F15E25A00E4F93E /* buketList.xcdatamodel */;
+			name = buketList.xcdatamodeld;
+			path = ../buketList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3B57726E1F100B5C00CB0823 /* Project object */;
 }
